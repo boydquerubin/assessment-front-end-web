@@ -35,3 +35,62 @@ input {
 img {
   max-width: 300px;
 }
+
+img.rexburg {
+  height: auto;
+  max-width: 500px;
+}
+
+.interactive-components {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-color,
+.button-place,
+.button-ritual {
+  border: 0;
+  line-height: 2.5;
+  padding: 3 10px;
+  font-size: 1rem;
+  text-align: center;
+  color: #000000;
+  border-radius: 10px;
+  background-color: rgb(242, 255, 0);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button-color:hover,
+.button-place:hover,
+.button-ritual:hover {
+  background-color: rgb(98, 255, 0);
+}
+
+.button-color:active,
+.button-place:active,
+.button-ritual:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.about-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  #maddyBoyd {
+    margin: 10px;
+  }
+
+  #QChildren {
+    margin: 10px;
+  }
+}
