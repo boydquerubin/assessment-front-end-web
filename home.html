@@ -16,11 +16,24 @@
     <content>
       <h1>Hello World</h1>
       <!-- insert hello world here -->
-
-      <img
-        src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png"
-      />
-
+      <!-- image source, created an assets folder with the rubber duck png image -->
+      <img src="./assets/rubber duck with shades and a chain.png" />
+      <!-- welcome paragraph here -->
+      <p>
+        Welcome to our website! Dive into a world where creativity and
+        innovation flourish. Explore, learn, and connect with a community ready
+        to inspire. Your journey starts here. Welcome aboard!
+      </p>
+      <!-- unordered list here -->
+      <ul>
+        <li>Your curiosity is the spark that ignites innovation here.</li>
+        <li>
+          Your engagement fuels our community's vibrant exchange of ideas.
+        </li>
+        <li>
+          Your presence enriches our collective journey towards creativity.
+        </li>
+      </ul>
       <h2>Contact Us</h2>
       <form id="contact">
         Your name:
@@ -30,6 +43,24 @@
         <input type="textarea" />
 
         <input type="submit" />
+        <!-- Form asking user how they heard about website -->
+        <p>
+          <i>How did you hear about this website? (Check all that apply):</i>
+        </p>
+        <div>
+          <input type="checkbox" id="google" name="referral" value="Google" />
+          <label for="google">Google</label>
+        </div>
+        <div>
+          <input type="checkbox" id="friend" name="referral" value="A friend" />
+          <label for="friend">A friend</label>
+        </div>
+        <div>
+          <input type="checkbox" id="other" name="referral" value="Other" />
+          <label for="other">Other</label>
+        </div>
+        <!-- Include other form elements here -->
+        <input type="submit" value="Submit" />
       </form>
     </content>
 
